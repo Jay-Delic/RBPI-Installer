@@ -15,7 +15,7 @@ cp .conkyrc /home/$USER/.conkyrc
 
 sudo mkdir /home/$USER/.config/autostart
 sudo mv conky.desktop /home/$USER/.config/autostart/conky.desktop
-
-conky
 cd ~
 sudo rm -r RBPI-Installer 
+conky
+
