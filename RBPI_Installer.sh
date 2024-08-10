@@ -13,9 +13,9 @@ pcmanfm --set-wallpaper /home/$USER/Pictures/JD_Wallpaper.jpg
 # Configure and start Conky
 cp .conkyrc /home/$USER/.conkyrc
 
-mkdir /home/$USER/.config/autostart
-mv conky.desktop /home/$USER/.config/autostart/conky.desktop
+sudo mkdir /home/$USER/.config/autostart
+sudo mv conky.desktop /home/$USER/.config/autostart/conky.desktop
 
 conky
 cd ~
-rm -r RBPI-Installer 
+sudo rm -r RBPI-Installer 
