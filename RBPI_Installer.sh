@@ -17,5 +17,5 @@ sudo mkdir /home/$USER/.config/autostart
 sudo mv conky.desktop /home/$USER/.config/autostart/conky.desktop
 cd ~
 sudo rm -r RBPI-Installer 
-conky
+sudo reboot now
 
