@@ -7,7 +7,7 @@ apt install conky -y
 cd /home/$USER/RBPI-Installer
 
 # Adjust Wallpaper
-mv JD_Wallpaper.jpg /home/$USER/Pictures/JD_Wallpaper.jpg
+sudo mv JD_Wallpaper.jpg /home/$USER/Pictures/JD_Wallpaper.jpg
 pcmanfm --set-wallpaper /home/$USER/Pictures/JD_Wallpaper.jpg
 
 # Configure and start Conky
