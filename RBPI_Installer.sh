@@ -4,17 +4,17 @@
 apt install conky -y
 
 # Mount Folder
-cd ~/RBPI-Installer
+cd /home/$USER/RBPI-Installer
 
 # Adjust Wallpaper
-mv JD_Wallpaper.jpg ~/Pictures/JD_Wallpaper.jpg
-pcmanfm --set-wallpaper ~/Pictures/JD_Wallpaper.jpg
+mv JD_Wallpaper.jpg /home/$USER/Pictures/JD_Wallpaper.jpg
+pcmanfm --set-wallpaper /home/$USER/Pictures/JD_Wallpaper.jpg
 
 # Configure and start Conky
-cp .conkyrc ~/.conkyrc
+cp .conkyrc /home/$USER/.conkyrc
 
-mkdir ~/.config/autostart
-mv conky.desktop ~/.config/autostart/conky.desktop
+mkdir /home/$USER/.config/autostart
+mv conky.desktop /home/$USER/.config/autostart/conky.desktop
 
 conky
 cd ~
