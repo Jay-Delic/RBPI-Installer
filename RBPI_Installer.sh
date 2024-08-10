@@ -18,3 +18,5 @@ mkdir ~/.config/autostart
 mv conky.desktop ~/.config/autostart/conky.desktop
 
 conky
+
+rm ~/RBPI_Installer.sh
